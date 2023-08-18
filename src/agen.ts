@@ -12,7 +12,7 @@ program
     .description('Tool to create aprons for MSFS scenery using OpenStreetMap data.');
 
 program
-    .command('remote <id> <xml>')
+    .command('remote <xml> <id>')
     .description('Download a way from OpenStreetMap API.')
     .action(async (id: string, xml: string) => {
         console.log('Downloading way #' + id);
