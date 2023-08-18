@@ -9,7 +9,7 @@ import { Coordinate } from '../model/coordinate.js';
  * @param way - The Way object to parse.
  * @returns An array of Coordinate objects.
  */
-export async function parse(way: Way): Promise<Coordinate[]> {
+export async function parseRemote(way: Way): Promise<Coordinate[]> {
     const nodes: NodeElement[] = [];
     const coords: Coordinate[] = [];
     
