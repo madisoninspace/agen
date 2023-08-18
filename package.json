@@ -1,6 +1,6 @@
 {
   "name": "@hannahwxyz/agen",
-  "version": "0.1.4",
+  "version": "0.1.7",
   "description": "Tool to create aprons for MSFS scenery using OpenStreetMap data.",
   "main": "out/agen.js",
   "type": "module",
