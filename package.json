@@ -1,6 +1,6 @@
 {
   "name": "@hannahwxyz/agen",
-  "version": "0.1.7",
+  "version": "0.1.16",
   "description": "Tool to create aprons for MSFS scenery using OpenStreetMap data.",
   "main": "out/agen.js",
   "type": "module",
@@ -19,9 +19,11 @@
   },
   "homepage": "https://github.com/hannahwxyz/agen#readme",
   "dependencies": {
+    "@xmldom/xmldom": "0.8.10",
     "axios": "1.4.0",
     "cli-progress": "3.12.0",
-    "commander": "11.0.0"
+    "commander": "11.0.0",
+    "xpath": "0.0.33"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.4.0",
